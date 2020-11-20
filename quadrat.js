@@ -1,0 +1,11 @@
+function Quadrat() {
+  var Eingabe  = document.getElementById('Eingabe');
+  var Ergebnis = Eingabe.value * Eingabe.value;
+  alert("Das Quadrat von " + Eingabe.value + " = " + Ergebnis);
+  Eingabe.value = 0;
+ }
+
+var los  = document.getElementById('los');
+los.addEventListener ('click', Quadrat, true);
+
+console.log("Hier ist das Dokument zu Ende! Ich glaube meine Hausaufgabe ist erledigt. Schönen Tag!");

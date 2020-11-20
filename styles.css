@@ -1,0 +1,21 @@
+body {
+  background-color: grey
+}
+h1 {
+  color: black;
+  border-color: white;
+  border-width: 5px;
+  border-style: solid;
+}
+p {
+  color: red;
+}
+q::before { 
+  content: "Remember this -> ";
+  background-color: yellow;
+  color: red;
+  font-weight: bold;
+}
+.override {
+  color:black !important;
+}​
